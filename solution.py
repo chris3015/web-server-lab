@@ -13,7 +13,6 @@ def webServer(serverPort=13331):
     #Fill in end
 
     while True:
-        #Establish the connection
 
         print ('Ready to serve...')
 
@@ -26,7 +25,7 @@ def webServer(serverPort=13331):
 
             f = open(filename[1:])
 
-            outputdata = b"Content-Type: text/html; charset=UTF-8\r\n"\
+            outputdata = f.read()
             print (outputdata)
             #Send an HTTP header line into socket for a valid request. What header should be sent for a response that is ok?
             #Fill in start
