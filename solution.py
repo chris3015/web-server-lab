@@ -1,4 +1,4 @@
- Import socket module
+# Import socket module
 from socket import *
 # In order to terminte the program
 import sys
